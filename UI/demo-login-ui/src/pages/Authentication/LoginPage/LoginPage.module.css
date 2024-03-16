@@ -18,7 +18,7 @@
 
 .avatar {
   margin: 0 auto 25px;
-  background-color: #ccc; 
+  background-color: #ccc;
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  color: #fff; 
+  color: #fff;
 }
 
 .title {
@@ -75,9 +75,12 @@
 }
 
 .loginButton:hover {
-  background-image: linear-gradient(to right, #54d0ae, #1fab89); /* Darker gradient for hover */
+  background-image: linear-gradient(
+    to right,
+    #54d0ae,
+    #1fab89
+  ); /* Darker gradient for hover */
 }
-
 
 .signupLink {
   margin-top: 30px;
@@ -87,4 +90,8 @@
 .signupLink a {
   color: #007bff;
   text-decoration: none;
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
 }

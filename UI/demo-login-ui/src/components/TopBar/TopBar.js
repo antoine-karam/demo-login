@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import {
   Nav,
   Card,
-  Image,
+//   Image,
   Navbar,
   Container,
   NavDropdown,
@@ -99,13 +99,12 @@ const TopBar = ({ userName, userImage, userPosition }) => {
                           </div>
                         )}
                       </div>
-                      <div className={classes.imgContainer}>
+                      {/* <div className={classes.imgContainer}>
                         <Image
                           alt="User Profile"
                           roundedCircle
                           className={classes.img}
                           src={
-                            userImage ??
                             `${process.env.PUBLIC_URL}/no-profile-picture.png`
                           }
                           // src={require('../../assets/images/jpeg/user.jpeg')}
@@ -114,7 +113,7 @@ const TopBar = ({ userName, userImage, userPosition }) => {
                             event.target.src = `${process.env.PUBLIC_URL}/no-profile-picture.png`;
                           }}
                         />
-                      </div>
+                      </div> */}
                     </div>
                   }
                 >

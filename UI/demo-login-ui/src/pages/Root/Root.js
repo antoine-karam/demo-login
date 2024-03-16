@@ -1,66 +1,71 @@
 import React, { useEffect, useRef } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 
-import Alert from "../../components/Alert/Alert";
+// import Alert from "../../components/Alert/Alert";
 import Toast from "../../components/Toast/Toast";
 import TopBar from "../../components/TopBar/TopBar";
+
+import { getAuthentication } from "../Authentication/actions/Authentication";
+
 import classes from "./Root.module.css";
+
 const RootLayout = () => {
   const initialized = useRef(false);
 
   const navigate = useNavigate();
 
-  const { userId, userName, userImage, userPosition } = {}; //getAuthentication();
+  const { userName, image, position } = getAuthentication();
 
   useEffect(() => {
-    if (!userId || !userName) {
+    if (!userName) {
       navigate("/sign-out", {
         replace: true,
         state: { status: "You are not authenticated!" },
       });
     }
-  }, [navigate, userId, userName]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     if (!initialized.current) {
       initialized.current = true;
 
       if (process.env.NODE_ENV === "development") {
-        console.log("user: ", userId);
+        console.log("user: ", userName);
       }
     }
-  }, [userId]);
+  }, [userName]);
 
-  if (!userId) {
+  if (!userName) {
     return null;
   }
 
   const outletJSX = (
     <div id="root-outlet" className={classes.outlet}>
-      <Outlet context={{ userId, userName, userImage, userPosition }} />
+      <Outlet context={{ userName, image, position }} />
     </div>
   );
 
   return (
     <div>
-      {alert && (
+      {/* {alert && (
         <Alert
           title={alert.title}
           status={alert.status}
           message={alert.message}
         />
-      )}
+      )} */}
       <div className={classes.container}>
         <main className={classes.main}>
           <TopBar
             userName={userName}
-            userImage={userImage}
-            userPosition={userPosition}
+            userImage={image}
+            userPosition={position}
           />
           <Toast
             text={
               <div>
-                Signed in with <strong>{userId}</strong>
+                Signed in with <strong>{userName}</strong>
               </div>
             }
             className={classes.toast}
