@@ -1,0 +1,113 @@
+.bread-crumb-home-micro {
+  top: 0.25rem;
+  display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .bread-crumb-home-micro {
+    flex-direction: column;
+  }
+}
+
+.bread-crumb-home-micro-prefix {
+  display: flex;
+  align-items: center;
+  color: var(--color-secondary-alt) !important;
+}
+
+.bread-crumb-home-micro-sep {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: var(--color-secondary-alt) !important;
+}
+
+.bread-crumb-home-micro-sep-active {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.bread-crumb-home-micro-text {
+  text-decoration: underline;
+}
+
+.bread-crumb-home {
+  color: var(--color-secondary-alt) !important;
+}
+
+.bread-crumb-home-text-active {
+  top: 0.15rem;
+  position: relative;
+}
+
+.overlay {
+  background-color: var(--color-surface) !important;
+}
+
+[data-bs-theme="light"] .overlay {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(./assets/images/jpeg/authleftbg.jpg);
+}
+
+.separator {
+  width: 0.07rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.1rem;
+  align-self: stretch;
+  margin-bottom: 0.1rem;
+  box-sizing: border-box;
+  background-color: var(--color-secondary-alt);
+}
+
+.overlayContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.overlayContent svg {
+  width: 4.5rem;
+  height: 4.5rem;
+  color: var(--color-secondary-alt);
+}
+
+.overlayBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--color-secondary-alt);
+}
+
+.overlayTitle {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.overlaySubTitle {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.overlySpinnerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.overlaySpinner {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-left: 2rem;
+  color: var(--color-secondary-alt);
+}
+
+.logo {
+  top: -1.7rem;
+  position: relative;
+}

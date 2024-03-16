@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.outlet {
+  overflow: auto;
+  height: calc(100vh - 5rem) !important;
+}
+
+.fabContainer {
+  bottom: 3rem;
+  right: 3rem;
+  z-index: 999;
+  position: fixed;
+}
+
+@media (max-width: 1000px) {
+  .fabContainer {
+    bottom: 3.6rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .fabContainer {
+    bottom: 3rem;
+  }
+}
+
+.fab {
+  width: 3.7rem;
+  height: 3.7rem;
+  animation: opacity 2000ms ease-out forwards;
+  color: var(--color-secondary-alt) !important;
+  background-color: var(--color-white-400) !important;
+  border: 0.05rem solid var(--color-accent) !important;
+  box-shadow: 0 0.15rem 0.5rem var(--color-fab-box-shadow-color) !important;
+}
+
+[data-bs-theme='dark'] .fab {
+  background-color: var(--color-even) !important;
+  border-color: var(--color-black-200) !important;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fab:hover {
+  color: var(--color-white-700) !important;
+  background-color: var(--color-secondary-alt) !important;
+}
+
+[data-bs-theme='dark'] .fab:hover {
+  color: var(--color-secondary-alt) !important;
+  background-color: var(--color-secondary) !important;
+}
+
+.toast {
+  margin-top: 5.5%;
+}

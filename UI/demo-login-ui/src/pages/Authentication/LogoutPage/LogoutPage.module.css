@@ -1,0 +1,59 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 80vw;
+  max-width: 30rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0.7rem !important;
+}
+
+.img {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infoText {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.mt-0_7 {
+  margin-top: 0.7rem;
+}
+
+.subInfo {
+  display: flex;
+  margin-top: 0.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subInfoText {
+  width: 60%;
+  font-size: 0.8rem;
+  padding-left: 0.25rem;
+}
+
+@media (max-width: 599px) {
+  .container {
+    padding: 0;
+  }
+  .card {
+    border: none !important;
+    width: 90vw !important;
+  }
+}

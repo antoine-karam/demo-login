@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #111827;
+}
+
+.titleContainer {
+  top: 3%;
+  left: 2%;
+  display: flex;
+  font-size: 1.4rem;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.title {
+  color: #61dafb;
+  background-color: #000000;
+  text-transform: uppercase;
+  padding: 0.3rem 0.7rem;
+  margin-left: 0.53rem;
+}
+
+.innerContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #b6b7b9;
+}
+
+.flash {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
