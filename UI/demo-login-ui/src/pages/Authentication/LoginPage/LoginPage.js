@@ -30,7 +30,7 @@ function Login() {
 
     try {
       const response = await fetch(
-        "backend-url",
+        "https://localhost:7139/api/Auth/login",
         {
           method: "POST",
           headers: {
@@ -45,16 +45,14 @@ function Login() {
       }
 
       const data = await response.json();
-      secureLocalStorage.setItem("userName", data.userName);
-      secureLocalStorage.setItem("userImage", data.userImage);
-      secureLocalStorage.setItem("userPosition", data.userPosition);
+      secureLocalStorage.setItem("userName", data.user.fullName);
+      secureLocalStorage.setItem("userEmail", data.user.email);
+      secureLocalStorage.setItem("userPosition", data.user.position);
 
       navigate("/", { replace: true });
       console.log(data);
     } catch (err) {
       setError(err.message);
-
-      navigate("/", { replace: true });
     }
   };
 
@@ -105,6 +103,11 @@ function Login() {
           </form>
         </div>
       </div>
+      <footer class="copy-right-footer">
+          <div class="copy-right-powered">
+            Powered by &copy;&nbsp;2024 Demo login
+          </div>
+        </footer>
     </Fragment>
   );
 }

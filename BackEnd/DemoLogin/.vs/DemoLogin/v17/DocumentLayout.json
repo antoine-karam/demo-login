@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E523B644-F76B-47ED-B0E6-2982BCBA1DC1}|DemoLogin.Domain\\DemoLogin.Domain.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin.domain\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E523B644-F76B-47ED-B0E6-2982BCBA1DC1}|DemoLogin.Domain\\DemoLogin.Domain.csproj|solutionrelative:demologin.domain\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3F9BC4-38CF-4989-9C22-4053BA8C7537}|DemoLogin.Infrastructure\\DemoLogin.Infrastructure.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin.infrastructure\\repositories\\base\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3F9BC4-38CF-4989-9C22-4053BA8C7537}|DemoLogin.Infrastructure\\DemoLogin.Infrastructure.csproj|solutionrelative:demologin.infrastructure\\repositories\\base\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3F9BC4-38CF-4989-9C22-4053BA8C7537}|DemoLogin.Infrastructure\\DemoLogin.Infrastructure.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin.infrastructure\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3F9BC4-38CF-4989-9C22-4053BA8C7537}|DemoLogin.Infrastructure\\DemoLogin.Infrastructure.csproj|solutionrelative:demologin.infrastructure\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88F62B4-2324-4168-9195-0E732F9DA8BF}|DemoLogin\\DemoLogin.API.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88F62B4-2324-4168-9195-0E732F9DA8BF}|DemoLogin\\DemoLogin.API.csproj|solutionrelative:demologin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0493AC2C-31E8-4748-8E9C-20E7146CD827}|DemoLogin.Services\\DemoLogin.Services.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin.services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0493AC2C-31E8-4748-8E9C-20E7146CD827}|DemoLogin.Services\\DemoLogin.Services.csproj|solutionrelative:demologin.services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E523B644-F76B-47ED-B0E6-2982BCBA1DC1}|DemoLogin.Domain\\DemoLogin.Domain.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E523B644-F76B-47ED-B0E6-2982BCBA1DC1}|DemoLogin.Domain\\DemoLogin.Domain.csproj|solutionrelative:demologin.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0493AC2C-31E8-4748-8E9C-20E7146CD827}|DemoLogin.Services\\DemoLogin.Services.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin.services\\demologin.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0493AC2C-31E8-4748-8E9C-20E7146CD827}|DemoLogin.Services\\DemoLogin.Services.csproj|solutionrelative:demologin.services\\demologin.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E523B644-F76B-47ED-B0E6-2982BCBA1DC1}|DemoLogin.Domain\\DemoLogin.Domain.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin.domain\\demologin.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E523B644-F76B-47ED-B0E6-2982BCBA1DC1}|DemoLogin.Domain\\DemoLogin.Domain.csproj|solutionrelative:demologin.domain\\demologin.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88F62B4-2324-4168-9195-0E732F9DA8BF}|DemoLogin\\DemoLogin.API.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88F62B4-2324-4168-9195-0E732F9DA8BF}|DemoLogin\\DemoLogin.API.csproj|solutionrelative:demologin\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88F62B4-2324-4168-9195-0E732F9DA8BF}|DemoLogin\\DemoLogin.API.csproj|c:\\users\\user\\documents\\github\\demo-login\\backend\\demologin\\demologin\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88F62B4-2324-4168-9195-0E732F9DA8BF}|DemoLogin\\DemoLogin.API.csproj|solutionrelative:demologin\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DemoLogin.Domain",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Domain\\DemoLogin.Domain.csproj",
+              "RelativeDocumentMoniker": "DemoLogin.Domain\\DemoLogin.Domain.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Domain\\DemoLogin.Domain.csproj",
+              "RelativeToolTip": "DemoLogin.Domain\\DemoLogin.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-16T10:49:00.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DemoLogin.Services",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Services\\DemoLogin.Services.csproj",
+              "RelativeDocumentMoniker": "DemoLogin.Services\\DemoLogin.Services.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Services\\DemoLogin.Services.csproj",
+              "RelativeToolTip": "DemoLogin.Services\\DemoLogin.Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-16T10:52:50.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Infrastructure\\Repositories\\Base\\MongoRepository.cs",
+              "RelativeDocumentMoniker": "DemoLogin.Infrastructure\\Repositories\\Base\\MongoRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Infrastructure\\Repositories\\Base\\MongoRepository.cs",
+              "RelativeToolTip": "DemoLogin.Infrastructure\\Repositories\\Base\\MongoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T10:47:22.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Infrastructure\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DemoLogin.Infrastructure\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Infrastructure\\Models\\User.cs",
+              "RelativeToolTip": "DemoLogin.Infrastructure\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T10:45:47.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DemoLogin.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "DemoLogin.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T10:08:36.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Domain\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "DemoLogin.Domain\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Domain\\Services\\UserService.cs",
+              "RelativeToolTip": "DemoLogin.Domain\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T10:08:12.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "DemoLogin.Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin.Services\\AuthService.cs",
+              "RelativeToolTip": "DemoLogin.Services\\AuthService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAnwCMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T10:01:10.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin\\Controllers\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "DemoLogin\\Controllers\\AuthorizationController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin\\Controllers\\AuthorizationController.cs",
+              "RelativeToolTip": "DemoLogin\\Controllers\\AuthorizationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T09:35:18.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin\\Program.cs",
+              "RelativeDocumentMoniker": "DemoLogin\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin\\Program.cs",
+              "RelativeToolTip": "DemoLogin\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwDIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T09:34:57.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin\\LoginModel.cs",
+              "RelativeDocumentMoniker": "DemoLogin\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\demo-login\\BackEnd\\DemoLogin\\DemoLogin\\LoginModel.cs",
+              "RelativeToolTip": "DemoLogin\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T09:35:36.276Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

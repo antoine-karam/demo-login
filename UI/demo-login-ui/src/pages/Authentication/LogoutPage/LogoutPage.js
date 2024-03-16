@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Card, Image, Spinner } from "react-bootstrap";
 import { useNavigate, useLocation } from "react-router-dom";
 
+import secureLocalStorage from "react-secure-storage";
 
 import classes from "./LogoutPage.module.css";
 
@@ -11,6 +12,10 @@ const SignOutPage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    secureLocalStorage.removeItem("userName");
+    secureLocalStorage.removeItem("userEmail");
+    secureLocalStorage.removeItem("userPosition");
+
     const timer = setTimeout(() => {
       if (location.state) {
         navigate("/sign-in", { replace: true });

@@ -14,9 +14,10 @@ const RootLayout = () => {
 
   const navigate = useNavigate();
 
-  const { userName, image, position } = getAuthentication();
+  const { userName, email, position } = getAuthentication();
 
   useEffect(() => {
+    console.log('userNAem',userName, email, position)
     if (!userName) {
       navigate("/sign-out", {
         replace: true,
@@ -42,7 +43,7 @@ const RootLayout = () => {
 
   const outletJSX = (
     <div id="root-outlet" className={classes.outlet}>
-      <Outlet context={{ userName, image, position }} />
+      <Outlet context={{ userName, email, position }} />
     </div>
   );
 
@@ -59,7 +60,7 @@ const RootLayout = () => {
         <main className={classes.main}>
           <TopBar
             userName={userName}
-            userImage={image}
+            userEmail={email}
             userPosition={position}
           />
           <Toast

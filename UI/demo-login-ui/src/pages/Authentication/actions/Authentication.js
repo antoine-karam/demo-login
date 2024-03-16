@@ -2,16 +2,16 @@ import secureLocalStorage from "react-secure-storage";
 
 export const getAuthentication = () => {
   const userName = secureLocalStorage.getItem("userName");
-  const image = secureLocalStorage.getItem("userImage");
+  const email = secureLocalStorage.getItem("userEmail");
   const position = secureLocalStorage.getItem("userPosition");
 
   if (!userName) {
     return {
-      userName : "test",
-      image:"test",
-      position:"test",
+      userName : "",
+      email:"",
+      position:"",
     };
   }
 
-  return { userName, image, position };
+  return { userName, email, position };
 };

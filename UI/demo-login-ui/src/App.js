@@ -4,6 +4,7 @@ import { FaHouse } from "react-icons/fa6";
 
 import RootLayout from "./pages/Root/Root";
 import ErrorPage from "./pages/Error/Error";
+import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import LoginPage from "./pages/Authentication/LoginPage/LoginPage";
 import LogoutPage from "./pages/Authentication/LogoutPage/LogoutPage";
 
@@ -31,15 +32,15 @@ function App() {
           },
         },
         children: [
-          // {
-          //   path: "profile",
-          //   element: (
-          //     <ProfilePage
-          //       title="General Information"
-          //       description="Login user general information"
-          //     />
-          //   ),
-          // },
+          {
+            path: "profile",
+            element: (
+              <ProfilePage
+                title="General Information"
+                description="Login user general information"
+              />
+            ),
+          },
         ],
       },
       {

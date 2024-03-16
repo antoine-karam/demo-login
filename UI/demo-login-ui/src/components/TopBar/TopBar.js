@@ -16,7 +16,7 @@ import { populateTheme, getCurrentTheme } from "../../theme";
 
 import classes from "./TopBar.module.css";
 
-const TopBar = ({ userName, userImage, userPosition }) => {
+const TopBar = ({ userName, userEmail, userPosition }) => {
   const navigate = useNavigate();
 
   const currentTheme = getCurrentTheme();
